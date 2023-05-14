@@ -3,7 +3,7 @@ import "@nomicfoundation/hardhat-toolbox";
 import "@nomicfoundation/hardhat-chai-matchers";
 import "@nomiclabs/hardhat-ethers";
 
-const RECOVERY_PHRASE = "INSERT_YOUR_PRIVATE_KEY_HERE";
+const RECOVERY_PHRASE = "gravity blame swing ankle first chuckle proof oval giant total salad delay budget example lift mechanic invite noodle box fuel derive jacket regret runway";
 
 task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
   const accounts = await hre.ethers.getSigners();
